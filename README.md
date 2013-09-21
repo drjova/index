@@ -1,4 +1,7 @@
 index
 =====
 
-Objective C - mutable dictionary save multiple values to a key
+Objective C - mutable dictionary to save multiple values to a key
+
+usage
+=====
