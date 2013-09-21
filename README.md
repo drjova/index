@@ -8,12 +8,12 @@ Usage
 
 To set new value to a key you just use:
 
-```
+```objc
 [someDictionary key:key value:id];
 ```
 To get the dictionary you can use:
 
-```
+```objc
 someDictionary.getIndex
 ```
 
@@ -29,13 +29,13 @@ Drag and drop Index.h and Index.m to your xcode project.
 ###Import the plugin ###
 
 
-```
+```objc
 #import "Index.h"
 ```
 
 ###Use it###
 
-``` 
+```objc 
 
 Index *someDictionary  = [[Index alloc] init];
 
