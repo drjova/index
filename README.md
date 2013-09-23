@@ -1,7 +1,7 @@
 Description
 ===========
 
-Objective C - mutable dictionary to save multiple values to a key
+Objective C - mutable dictionary multiple values to keys.
 
 Usage
 ===========
@@ -9,7 +9,7 @@ Usage
 To set new value to a key you just use:
 
 ```objc
-[someDictionary key:key value:id];
+[someDictionary key:key value:value];
 ```
 To get the dictionary you can use:
 
@@ -39,7 +39,7 @@ Drag and drop Index.h and Index.m to your xcode project.
 
 Index *someDictionary  = [[Index alloc] init];
 
-[someDictionary key:key value:id];
+[someDictionary key:key value:value];
 
 someDictionary.getIndex
 
